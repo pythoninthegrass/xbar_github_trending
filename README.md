@@ -12,6 +12,7 @@ Original credit goes to [mfks17](https://github.com/mfks17) for their Ruby imple
 
 ## Requirements
 
+- xbar
 - python (3.11.6+)
 - bs4
 - requests
@@ -19,6 +20,7 @@ Original credit goes to [mfks17](https://github.com/mfks17) for their Ruby imple
 
 ## Installation
 
+- Install [xbar](https://xbarapp.com/)
 - Install [python3.11.6+](https://www.python.org/downloads/)
 - Install required packages.
     ```bash
