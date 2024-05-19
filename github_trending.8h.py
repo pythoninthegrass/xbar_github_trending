@@ -36,7 +36,7 @@ cache = 'github_trending_cache'
 def main():
     session = CachedSession(cache,
                             backend='sqlite',
-                            expire_after=3600,
+                            expire_after=14400,
                             use_temp=True,
                             allowable_codes=(200))
 
@@ -67,7 +67,7 @@ def main():
                 total_stars = repo_data['stargazers_count']
                 repos.add((repo_name, total_stars, repo_url))
             except RequestException:
-                print('🙅Github Api Limits🙅')
+                print('🙅 Github Api Limits 🙅')
                 break
 
         sorted_repos = sorted(repos, key=lambda x: x[1], reverse=True)
@@ -81,13 +81,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-    # # import inspect
-    # # print(f"Line number: {inspect.currentframe().f_lineno}")
-    # # import sys
-    # import os
-    # path = [path for path in os.environ.get('PATH').split(':')]
-    # path = ':'.join(path)
-    # print("PATH")
-    # print("---")
-    # print(path)
