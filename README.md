@@ -1,6 +1,6 @@
-Github Trending BitBar Plugin
+Github Trending xbar Plugin
 ===
-![CI Status](https://travis-ci.org/mfks17/bitbar-plugin-AppStore.svg?branch=master)
+<!--![CI Status](https://travis-ci.org/mfks17/bitbar-plugin-AppStore.svg?branch=master)-->
 
 ## Github Trending Viewer
 
@@ -8,7 +8,7 @@ This plug-in displays the daily trending of your favorite language from Github.
 
 ## Features
 
-<img src="https://raw.githubusercontent.com/mfks17/bitbar-plugin-github-trending/master/Screenshots/02.gif" width="320px" />
+<img src="https://raw.githubusercontent.com/pythoninthegrass/bitbar-plugin-github-trending/master/Screenshots/02.gif" width="320px" />
 
 ## Requirements
 
@@ -18,7 +18,7 @@ This plug-in displays the daily trending of your favorite language from Github.
 # Installation
 
 - Download ```github-trending.1h.rb``` file or Clone it.
-- Put ```github-trending.1h.rb``` in your bitbar plugin directory.
+- Put ```github-trending.1h.rb``` in your xbar plugin directory.
 
 # Usage
 
@@ -33,6 +33,6 @@ This plug-in displays the daily trending of your favorite language from Github.
 
 ## License
 
-```Github Trending Bitbar Plugin``` is available under the MIT license. 
+```Github Trending xbar Plugin``` is available under the MIT license. 
 
-See the [LICENSE](https://github.com/mfks17/bitbar-plugin-github-trending/blob/master/LICENSE) file for more info.
+See the [LICENSE](https://github.com/pythoninthegrass/xbar_github_trending/blob/master/LICENSE) file for more info.
