@@ -33,8 +33,9 @@ Original credit goes to [mfks17](https://github.com/mfks17) for their Ruby imple
 
 - Open `github_trending.8h.py` file.
 - Set your favorite language.
-
-`LANG = 'python' # your favorite language`
+    ```py
+    lang = 'python' # your favorite language
+    ```
 
 ## TODO
 
